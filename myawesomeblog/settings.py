@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'technoblog.urls'
+ROOT_URLCONF = 'myawesomeblog.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'technoblog.wsgi.application'
+WSGI_APPLICATION = 'myawesomeblog.wsgi.application'
 
 
 # Database
@@ -82,7 +82,7 @@ DATABASES = {
         'USER' : 'postgres',
         'PASSWORD' : 'G1h2o3s4t5',
         'HOST' : 'localhost',
-        'PORT' : '5432',
+        'PORT' : '5431',
     }
 }
 
